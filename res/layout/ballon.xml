@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layColor"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TableRow
+        android:id="@+id/tableRow"
+        android:gravity="center"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+         <ImageButton
+        android:id="@+id/buttonYellow"
+        android:background="@drawable/yellow"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        />
+         
+          <ImageButton
+        android:id="@+id/buttonRed"
+        android:background="@drawable/red"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        />
+          
+           <ImageButton
+        android:id="@+id/buttonGreen"
+        android:background="@drawable/green"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        />
+           
+           
+            <ImageButton
+        android:id="@+id/buttonCyan"
+        android:background="@drawable/cyan"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        />
+        
+    </TableRow>
+   
+    
+     <TableRow
+        android:id="@+id/tableRow2"
+        android:gravity="center"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+         <ImageButton
+        android:id="@+id/buttonBlue"
+        android:background="@drawable/blue"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        />
+         
+          <ImageButton
+        android:id="@+id/buttonPurple"
+        android:background="@drawable/magenta"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        />
+          
+           <ImageButton
+        android:id="@+id/buttonWhite"
+        android:background="@drawable/white"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        />
+           
+            <ImageButton
+        android:id="@+id/buttonBlack"
+        android:background="@drawable/black"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        />
+        
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/main"
+    android:layout_height="fill_parent" >
+	<ImageButton
+        android:id="@+id/buttonPlay"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/button"
+        android:layout_marginLeft="3sp"
+        android:layout_marginRight="3sp"
+        android:layout_marginBottom="200dp"
+        android:layout_width="180sp"
+        android:layout_height="90sp"
+        />
+</FrameLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:id="@+id/layThickness"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:textColor="#000000"
+	    android:text="Thickness"
+	     />
+    
+	<SeekBar
+	    android:id="@+id/seekbarThickness"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+	</SeekBar>
+
+	<TextView
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:gravity="center"
+	    android:text="Dispersibility"
+	     />
+    
+	<SeekBar
+	    android:id="@+id/seekbarDispersibility"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+	</SeekBar>
+	
+	
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:weightSum="2"
+	    android:layout_marginTop="3dp"
+	    android:layout_height="wrap_content">
+	
+	    <Button
+	    android:id="@+id/buttonSaveThickness"
+	    android:layout_weight="1"
+	    android:text="OK"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	   />
+	    
+	    
+	    <Button
+	    android:id="@+id/buttonCancelThickness"
+	    android:layout_weight="1"
+	    android:text="Cancel"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	   />
+	    
+	</TableRow>
+	
+</LinearLayout>
